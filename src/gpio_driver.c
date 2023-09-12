@@ -1,10 +1,10 @@
 /*
  *@Author: Malefetsane Lenka
  *@Date:   05/08/2023
- *@Brief: gpio.c library
+ *@Brief: gpio_driver.c library
  */
 
-#include "gpio.h"
+#include "gpio_driver.h"
 
 
 void GPIO_ClockConfig(GPIO_TypeDef* GPIOx,uint8_t EnOrDi){

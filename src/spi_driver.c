@@ -1,11 +1,11 @@
 /*
- * spi.c
+ * spi_driver.c
  *
  *  Created on: Aug 5, 2023
  *      Author: Malefetsane Lenka
  */
 
-#include "spi.h"
+#include "spi_driver.h"
 
 
 /*

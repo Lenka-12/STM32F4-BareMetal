@@ -21,7 +21,8 @@
 *.a
 *.la
 *.lo
-
+#post compilation
+*.bin
 # Shared objects (inc. Windows DLLs)
 *.dll
 *.so

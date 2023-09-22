@@ -18,6 +18,9 @@
 #define PushPull                 0U
 #define OpenDrain                1U
 
+#define ENABLE                   1U
+#define DISABLE                  0U
+
 #define GPIO_PIN_SET             ENABLE
 #define GPIO_PIN_RESET           DISABLE
 

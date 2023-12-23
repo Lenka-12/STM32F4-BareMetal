@@ -5,6 +5,7 @@
  *      Author: Malefetsane Lenka
  */
 #include <stdint.h>
+#include<stdio.h>
 #define SRAM_START            0x20000000U
 #define SRAM_SIZE             (128*1024)   //128KB
 #define SRAM_END              ((SRAM_START)+(SRAM_SIZE-1))

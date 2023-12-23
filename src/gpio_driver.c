@@ -5,8 +5,6 @@
  */
 
 #include "gpio_driver.h"
-
-
 void GPIO_ClockConfig(GPIO_TypeDef* GPIOx,uint8_t EnOrDi){
     if (EnOrDi){
         if (GPIOx==GPIOA){

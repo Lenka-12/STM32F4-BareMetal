@@ -7,8 +7,6 @@
 
 #include "stm32f411xe.h"
 #include "timebase.h"
-
-
 volatile uint32_t g_curr_tick;
 volatile uint32_t g_curr_p;
 volatile uint32_t tick_freq = 1;

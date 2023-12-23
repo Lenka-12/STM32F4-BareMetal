@@ -10,7 +10,7 @@ VPATH = $(SRCDIRS)
 # Directories
 SRCDIRS = example src
 BUILDDIR = build
-BINDIRS  = binaries
+BINDIR  = binaries
 
 # Source files from each source directory
 SOURCES = $(foreach dir, $(SRCDIRS), $(wildcard $(dir)/*.c))
@@ -21,13 +21,14 @@ OBJS = $(patsubst %.c,$(BUILDDIR)/%.o,$(notdir $(SOURCES)))
 # Linker Script
 LS = $(wildcard $(BUILDDIR)/*.ld)
 
-TARGET = $(BINDIRS)/final.elf
-BINARY = $(BINDIRS)/final.bin
+TARGET = $(BINDIR)/final.elf
+BINARY = $(BINDIR)/final.bin
 
 .PHONY: all clean flash
 
-all: $(BINARY)
-
+all: $(BINDIR) $(BINARY)
+$(BINDIR):
+	mkdir -p $@
 $(BINARY): $(TARGET)
 	$(OBJOPTIONS) $< $@
 

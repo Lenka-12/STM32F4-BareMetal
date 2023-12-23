@@ -7,7 +7,7 @@
 
 #include "i2c_driver.h"
 
-#define APB1_CLOCKFREQ     16000000U
+#define APB1_CLOCKFREQ     16000000UL
 
 static void I2Cx_Start(I2C_TypeDef* I2Cx);
 static void I2C_SentAddress(I2C_TypeDef* I2Cx, uint8_t address);

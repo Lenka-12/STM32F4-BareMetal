@@ -5,7 +5,7 @@ This is a bare-metal programming repository for UCT second-year development boar
 
 # Getting Started with STM32F4xx series
 
-Clone the repository to your local computer. Go to linker script `build/stm32_ls.ld` and update the RAM and Flash size according to your processor specs. For the UCT board, you do not need to change anything else.
+Clone the repository to your local computer. Go to linker script `build/stm32_ls.ld` and update the RAM and Flash size according to your processor specs.
 
 ## Tools Needed
 

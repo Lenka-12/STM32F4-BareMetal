@@ -53,7 +53,7 @@ Before you start, ensure you have the following tools installed on your system:
 1. Go to the project folder containing the Makefile.
 2. Open that folder in the terminal.
 3. Type `make flash`.
-  ```
+   
 ## References
 ### Openocd
 https://openocd.org/doc/pdf/openocd.pdf

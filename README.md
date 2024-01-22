@@ -1,5 +1,5 @@
 
-# STM42F4xx BareMetal
+# STM32F4xx BareMetal
 
 This is a bare-metal programming repository for UCT second-year development board. Everything is written from scratch.
 

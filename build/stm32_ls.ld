@@ -1,7 +1,8 @@
 /*
- * Linker Script for stm32f051c6t6
+ * Linker Script for stm32f411RE
  * Can be modified on SRAM LENGTH and FLASH RAM for other stm32f series mcu
  *  Created on: 23 Jul 2023
+ *  Modified on: 13 Nov 2024
  *      Author: Malefetsane Lenka
  */
 ENTRY(Reset_Handler)

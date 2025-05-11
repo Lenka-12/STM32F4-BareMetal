@@ -36,7 +36,7 @@ Before you start, ensure you have the following tools installed on your system:
 
 3. **Make**
    - **Windows**:
-     - Download the Windows binary distribution of (Make)[https://gnuwin32.sourceforge.net/packages/make.htm] or use choco.
+     - Download the Windows binary distribution of [Make](https://gnuwin32.sourceforge.net/packages/make.htm) or use choco.
      - Install Make by running the installer.
      - Add the Make `bin` directory to the system's `PATH` environment variable.
    - **Linux (Ubuntu)**:
@@ -54,16 +54,16 @@ Before you start, ensure you have the following tools installed on your system:
    
 ## References
 ### Openocd
-(pdf)(https://openocd.org/doc/pdf/openocd.pdf
-https://openocd.org/pages/documentation.html
+[pdf](https://openocd.org/doc/pdf/openocd.pdf)
+[html](https://openocd.org/pages/documentation.html)
 
 ### ToolChain
-https://gcc.gnu.org/onlinedocs/gcc/ARM-Options.html
+[docs](https://gcc.gnu.org/onlinedocs/gcc/ARM-Options.html)
 
 ### Make
-https://www.gnu.org/software/make/manual/make.html
+[docs](https://www.gnu.org/software/make/manual/make.html)
 
 ### LinkerScript
-https://ftp.gnu.org/old-gnu/Manuals/ld-2.9.1/html_chapter/ld_3.html
+[docs](https://ftp.gnu.org/old-gnu/Manuals/ld-2.9.1/html_chapter/ld_3.html)
 
 ### To-do: add more depth info on installation, library usage, and more..

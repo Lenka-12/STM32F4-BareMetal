@@ -11,7 +11,7 @@ Before you start, ensure you have the following tools installed on your system:
 
 1. **Arm GNU Toolchain**
    - **Windows**:
-     - Download the Arm GNU Toolchain for Windows from https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm/downloads.
+     - Download the Arm GNU Toolchain for Windows (here)[https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm/downloads].
      - Install the toolchain by running the installer.
      - During installation, specify the installation directory (e.g., `C:\Program Files (x86)\GNU Arm Embedded Toolchain`).
      - Add the toolchain's `bin` directory to the system's `PATH` environment variable.
@@ -36,7 +36,7 @@ Before you start, ensure you have the following tools installed on your system:
 
 3. **Make**
    - **Windows**:
-     - Download the Windows binary distribution of Make from https://gnuwin32.sourceforge.net/packages/make.htm.
+     - Download the Windows binary distribution of [Make](https://gnuwin32.sourceforge.net/packages/make.htm) or use choco.
      - Install Make by running the installer.
      - Add the Make `bin` directory to the system's `PATH` environment variable.
    - **Linux (Ubuntu)**:
@@ -54,7 +54,7 @@ Before you start, ensure you have the following tools installed on your system:
    
 ## References
 ### Openocd
-https://openocd.org/doc/pdf/openocd.pdf
+(pdf)(https://openocd.org/doc/pdf/openocd.pdf
 https://openocd.org/pages/documentation.html
 
 ### ToolChain

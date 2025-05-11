@@ -24,7 +24,7 @@ Before you start, ensure you have the following tools installed on your system:
 
 2. **OpenOCD**
    - **Windows**:
-     - Download the Windows distribution of OpenOCD from https://gnutoolchains.com/arm-eabi/openocd/.
+     - Download the Windows distribution of [OpenOCD](https://gnutoolchains.com/arm-eabi/openocd/).
      - Extract the downloaded archive to a folder of your choice (e.g., `C:\openocd`).
      - Add the OpenOCD `bin` directory to the system's `PATH` environment variable.
    - **Linux (Ubuntu)**:
